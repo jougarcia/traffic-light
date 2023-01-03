@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const TrafficLight = () => {
+const Semaforo = () => {
     const [color, setColor] = useState("")
     const [colors, setColors] = useState(["rojo", "amarillo", "verde"])
 
@@ -30,4 +30,4 @@ const TrafficLight = () => {
     )
 }
 
-export default TrafficLight
+export default Semaforo
